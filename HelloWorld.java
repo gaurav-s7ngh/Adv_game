@@ -140,6 +140,16 @@ public class HelloWorld {
                 System.out.println("Thanks for playing!");
                 break;
             }
+            else{
+                System.out.println("PRESS e or r please");
+                if (dec.equals("r")) {
+                System.out.println("You start again......");
+            } else if (dec.equals("e")) {
+                System.out.println("Thanks for playing!");
+                break;
+            }
+
+            }
         }
     }
 }
